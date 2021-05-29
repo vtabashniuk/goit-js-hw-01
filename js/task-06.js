@@ -9,11 +9,11 @@ let inputData;
 let total = 0;
 
 do {
-  inputData = prompt("Введите число: ");
+  inputData = prompt('Введите число: ');
   if (!Number.isNaN(Number(inputData))) {
     total += Number(inputData);
   } else {
-    alert("Было введено не число, попробуйте еще раз");
+    alert('Было введено не число, попробуйте еще раз');
   }
 } while (inputData !== null);
 alert(`Общая сумма чисел равна ${total}`);

@@ -13,16 +13,16 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-const destinationCountry = prompt("Введите Вашу страну:");
-const country1 = "Китай";
+const destinationCountry = prompt('Введите Вашу страну:');
+const country1 = 'Китай';
 const deliveryRate1 = 100;
-const country2 = "Чили";
+const country2 = 'Чили';
 const deliveryRate2 = 250;
-const country3 = "Австралия";
+const country3 = 'Австралия';
 const deliveryRate3 = 170;
-const country4 = "Индия";
+const country4 = 'Индия';
 const deliveryRate4 = 80;
-const country5 = "Ямайка";
+const country5 = 'Ямайка';
 const deliveryRate5 = 120;
 let message;
 

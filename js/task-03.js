@@ -8,15 +8,15 @@
 // В противном случае, то есть если ни одно из предыдущих условий не выполнилось, записать в message строку 'Доступ запрещен, неверный пароль!'
 // После всех проверок вывести в alert значение переменной message.
 
-const ADMIN_PASSWORD = "jqueryismyjam";
+const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 
-let enteredPassword = prompt("Введите пароль: ");
+let enteredPassword = prompt('Введите пароль: ');
 if (enteredPassword === ADMIN_PASSWORD) {
-  message = "Добро пожаловать!";
+  message = 'Добро пожаловать!';
 } else if (enteredPassword === null) {
-  message = "Отменено пользователем!";
+  message = 'Отменено пользователем!';
 } else {
-  message = "Доступ запрещен, неверный пароль!";
+  message = 'Доступ запрещен, неверный пароль!';
 }
 alert(message);
